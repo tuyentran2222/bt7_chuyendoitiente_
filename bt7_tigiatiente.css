@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:none;
+}
+body{
+    background:url(./nice-island-wallpaper-full-hd_040152396.jpg);
+}
+.container{
+    border:1px solid black;
+    box-shadow: 0px 1px 4px 0px black;
+    width: 500px;
+    margin: 100px auto;
+    border-radius: 5px;
+}
+.container h1{
+    text-align: center;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.convert1{
+    margin-top: 25px;
+    margin-left: 18%;
+}
+.convert1 input,.money{
+    width: 75%;
+    text-align: left;
+    text-indent: 10px;
+    padding-top :5px;
+    padding-bottom: 5px; 
+    border-radius: 2px;
+    outline: none;
+    border:solid 1px rgb(134, 87, 87);
+    background: transparent;
+}
+.convert1 h2{
+    margin-top:15px;
+    text-transform: uppercase;
+}
+.select{
+    width: 25%;
+    margin-top: 10px;
+    border:1px solid goldenrod;
+    border-radius: 2px;
+    background: transparent;
+
+}
+.select:hover{
+    border: 1px solid red;
+}
+.nation{
+    margin-left:15px;
+    display:inline-block;
+    border:1px solid goldenrod;
+    width: 185px;
+    text-align: center;
+}
+.button{
+    margin-top: 25px;
+    margin-left: 30%;
+    padding:5px 15px 5px 15px;
+    background-color: green;
+    font-weight: bolder;
+}
+.money{
+    margin-top:25px;
+    margin-bottom: 25px;
+    height: 20px;
+   background-color: antiquewhite;
+}
